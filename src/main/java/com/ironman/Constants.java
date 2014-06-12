@@ -1,6 +1,6 @@
-package com.ironman.lib;
+package com.ironman;
 
-public class Strings {
+public class Constants {
 
 	public static final String MODID = "ironman";
 	public static final  String name = "The Iron Man mod";

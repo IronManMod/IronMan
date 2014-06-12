@@ -1,4 +1,4 @@
-package com.ironman.Entity;
+package com.ironman.entity;
 
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
@@ -10,7 +10,6 @@ public class EntityRepulsor extends EntityThrowable{
 
 	public EntityRepulsor(World par1World) {
 		super(par1World);
-		// TODO Auto-generated constructor stub
 	}
 
 	public EntityRepulsor(World world, EntityLivingBase enity){

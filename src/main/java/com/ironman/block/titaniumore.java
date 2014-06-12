@@ -3,9 +3,9 @@ package com.ironman.block;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 
-public class titaniumore extends Block {
+public class TitaniumOre extends Block {
 
-	protected titaniumore(Material p_i45394_1_) {
+	protected TitaniumOre(Material p_i45394_1_) {
 		super(p_i45394_1_);
 		// TODO Auto-generated constructor stub
 	}

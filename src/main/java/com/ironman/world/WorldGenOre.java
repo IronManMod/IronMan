@@ -1,12 +1,11 @@
-package com.ironman.main;
+package com.ironman.world;
 import java.util.Random;
 
-import com.ironman.block.imblock;
+import com.ironman.block.IMBlock;
 
 import net.minecraft.world.World;
 import net.minecraft.world.chunk.IChunkProvider;
 import net.minecraft.world.gen.feature.WorldGenMinable;
-import cpw.mods.fml.common.IWorldGenerator;
 import cpw.mods.fml.common.IWorldGenerator;
 
 public class WorldGenOre implements IWorldGenerator {
@@ -26,7 +25,7 @@ int Xcoord = BlockX + random.nextInt(16);
 int Zcoord = BlockZ + random.nextInt(13);
 int Ycoord = random.nextInt(64);
 
-(new WorldGenMinable(imblock.titaniumore, 8)).generate(world, random, Xcoord, Ycoord, Zcoord);
-(new WorldGenMinable(imblock.copperore, 10)).generate(world, random, Xcoord, Ycoord, Zcoord);
-(new WorldGenMinable(imblock.palladiumore, 7)).generate(world, random, Xcoord, Ycoord, Zcoord);
+(new WorldGenMinable(IMBlock.titaniumore, 8)).generate(world, random, Xcoord, Ycoord, Zcoord);
+(new WorldGenMinable(IMBlock.copperore, 10)).generate(world, random, Xcoord, Ycoord, Zcoord);
+(new WorldGenMinable(IMBlock.palladiumore, 7)).generate(world, random, Xcoord, Ycoord, Zcoord);
 }}}

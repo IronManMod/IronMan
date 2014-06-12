@@ -1,16 +1,15 @@
 package com.ironman.block;
 
-import java.util.Random;
-
-import com.ironman.main.item.imitem;
-
+import com.ironman.item.IMItemRegistryOld;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.Item;
 
-public class palladiumore extends Block {
+import java.util.Random;
 
-	protected palladiumore(Material p_i45394_1_) {
+public class PalladiumOre extends Block {
+
+	protected PalladiumOre(Material p_i45394_1_) {
 		super(p_i45394_1_);
 		// TODO Auto-generated constructor stub
 	}
@@ -18,7 +17,7 @@ public class palladiumore extends Block {
 
 public Item getItemDropped(int metadata, Random rand, int fortune)
 {
-	return imitem.palladiumfragment;
+	return IMItemRegistryOld.palladiumfragment;
 	
 }
 

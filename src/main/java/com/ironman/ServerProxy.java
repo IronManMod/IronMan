@@ -1,20 +1,17 @@
-package com.ironman.main;
+package com.ironman;
 
 
+import com.ironman.item.IMItemRegistryOld;
 import net.minecraft.client.renderer.entity.RenderSnowball;
 
-import com.ironman.Entity.EntityRepulsor;
-
-import com.ironman.main.item.imitem;
+import com.ironman.entity.EntityRepulsor;
 
 import cpw.mods.fml.client.registry.RenderingRegistry;
-import cpw.mods.fml.common.network.NetworkRegistry;
-import cpw.mods.fml.common.registry.GameRegistry;
 
 public class ServerProxy {
 
 	public void registerRenderThings(){
-		RenderingRegistry.registerEntityRenderingHandler(EntityRepulsor.class, new RenderSnowball(imitem.repulsor));
+		RenderingRegistry.registerEntityRenderingHandler(EntityRepulsor.class, new RenderSnowball(IMItemRegistryOld.repulsor));
 
 	}
 	

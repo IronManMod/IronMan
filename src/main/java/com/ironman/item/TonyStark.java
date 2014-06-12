@@ -1,12 +1,10 @@
-package com.ironman.main.item;
+package com.ironman.item;
 
 import com.ironman.lib.Strings;
 
 import net.minecraft.entity.Entity;
-import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemStack;
-import net.minecraft.world.World;
 
 public class TonyStark extends ItemArmor {
 	
@@ -19,9 +17,9 @@ public class TonyStark extends ItemArmor {
 
 	public String getArmorTexture(ItemStack stack, Entity entity, int slot, String type) {
 		
-		if (stack.getItem() == imitem.TonyStarkHeadgear || stack.getItem() == imitem.palladiumarc || stack.getItem() == imitem.TonyStarkshoes) {
+		if (stack.getItem() == IMItemRegistryOld.TonyStarkHeadgear || stack.getItem() == IMItemRegistryOld.palladiumarc || stack.getItem() == IMItemRegistryOld.TonyStarkshoes) {
 			return Strings.MODID + ":textures/armor/TonyStark_1.png";
-		}else if(stack.getItem() == imitem.palladiumarc){
+		}else if(stack.getItem() == IMItemRegistryOld.palladiumarc){
 			return Strings.MODID + ":textures/armor/TonyStark_2.png";
 		}else{
 			return null;

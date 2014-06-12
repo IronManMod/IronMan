@@ -1,10 +1,7 @@
-package com.ironman.main.item;
-
-import ibxm.Player;
+package com.ironman.item;
 
 import com.ironman.lib.Strings;
 
-import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemArmor;
@@ -12,10 +9,6 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
 import net.minecraft.world.World;
-import net.minecraftforge.event.entity.living.LivingFallEvent;
-import net.minecraftforge.event.entity.living.LivingHurtEvent;
-import net.minecraftforge.event.entity.living.LivingEvent.LivingUpdateEvent;
-import net.minecraftforge.event.entity.player.PlayerEvent;
 
 public class Mark3Armor extends ItemArmor {
 	
@@ -29,9 +22,9 @@ public class Mark3Armor extends ItemArmor {
 
 	public String getArmorTexture(ItemStack stack, Entity entity, int slot, String type) {
 		
-		if (stack.getItem() == imitem.Mark3Helmet || stack.getItem() == imitem.Mark3Chestplate || stack.getItem() == imitem.Mark3Boots) {
+		if (stack.getItem() == IMItemRegistryOld.Mark3Helmet || stack.getItem() == IMItemRegistryOld.Mark3Chestplate || stack.getItem() == IMItemRegistryOld.Mark3Boots) {
 			return Strings.MODID + ":textures/armor/Mark3_1.png";
-		}else if(stack.getItem() == imitem.Mark3Leggings){
+		}else if(stack.getItem() == IMItemRegistryOld.Mark3Leggings){
 			return Strings.MODID + ":textures/armor/Mark3_2.png";
 		}else{
 			return null;
@@ -47,7 +40,7 @@ public class Mark3Armor extends ItemArmor {
              ItemStack boots = player.getCurrentArmor(0);
         
        
-     if (((boots.getItem() == imitem.Mark3Boots ? 1 : 0) | (legs.getItem() == imitem.Mark3Leggings ? 1 : 0) | (plate.getItem() == imitem.Mark3Chestplate ? 1 : 0) | (helmet.getItem() == imitem.Mark3Helmet ? 1 : 0)) != 0)        
+     if (((boots.getItem() == IMItemRegistryOld.Mark3Boots ? 1 : 0) | (legs.getItem() == IMItemRegistryOld.Mark3Leggings ? 1 : 0) | (plate.getItem() == IMItemRegistryOld.Mark3Chestplate ? 1 : 0) | (helmet.getItem() == IMItemRegistryOld.Mark3Helmet ? 1 : 0)) != 0)
 {
 player.capabilities.allowFlying = true;
 player.fallDistance = 0.0F;

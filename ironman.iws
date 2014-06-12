@@ -2,1148 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98095ef1-5b03-4ad1-92c6-77f032b084f6" name="Default" comment="Added files.">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ironman/item/IMCraftingRegistry.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ironman/item/IMItemRegistry.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ironman/IronMan.java" />
       <change type="DELETED" beforePath="C:\Users\Axel\Desktop\IntelliJ\IronMan\README.txt" afterPath="" />
-    </list>
-    <list id="324d6cc5-9f84-4316-9508-81e959e39e79" name="Rejected commit: Default" comment="Added files.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/.metadata/.plugins/org.eclipse.core.resources/.projects/Minecraft/.location" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/.metadata/.plugins/org.eclipse.core.resources/.root/0.tree" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/records/11.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/records/11.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/records/13.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/records/13.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/ghast/affectionate_scream.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/ghast/affectionate_scream.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/angry1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/donkey/angry1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/angry1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/donkey/angry1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/donkey/angry2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/donkey/angry2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/random/anvil_break.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/random/anvil_break.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/random/anvil_land.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/random/anvil_land.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/random/anvil_use.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/random/anvil_use.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/armor.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/armor.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/slime/attack1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/slime/attack1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/slime/attack2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/slime/attack2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/wolf/bark1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/wolf/bark1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/wolf/bark2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/wolf/bark2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/wolf/bark3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/wolf/bark3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/minecart/base.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/minecart/base.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/note/bass.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/note/bass.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/note/bassattack.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/note/bassattack.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/note/bd.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/note/bd.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/magmacube/big1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/slime/big1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/magmacube/big1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/slime/big1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/magmacube/big2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/slime/big2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/magmacube/big2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/slime/big2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/magmacube/big3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/slime/big3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/magmacube/big3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/slime/big3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/magmacube/big4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/slime/big4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/magmacube/big4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/slime/big4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/fireworks/blast1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/fireworks/blast1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/fireworks/blast_far1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/fireworks/blast_far1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/records/blocks.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/records/blocks.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/music/game/end/boss.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/random/bow.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/random/bow.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/random/bowhit1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/random/bowhit1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/random/bowhit2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/random/bowhit2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/random/bowhit3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/random/bowhit3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/random/bowhit4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/random/bowhit4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/random/break.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/random/break.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/random/breath.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/random/breath.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/blaze/breathe1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/breathe1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/blaze/breathe1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/breathe1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/blaze/breathe2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/breathe2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/blaze/breathe2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/breathe2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/blaze/breathe3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/breathe3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/blaze/breathe3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/breathe3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/blaze/breathe4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/blaze/breathe4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/random/burp.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/random/burp.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/music/calm1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/music/game/calm1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/music/calm2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/music/game/calm2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/music/calm3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/music/game/calm3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/records/cat.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/records/cat.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/ambient/cave/cave1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/ambient/cave/cave1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/ambient/cave/cave10.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/ambient/cave/cave10.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/ambient/cave/cave11.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/ambient/cave/cave11.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/ambient/cave/cave12.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/ambient/cave/cave12.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/ambient/cave/cave13.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/ambient/cave/cave13.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/ambient/cave/cave2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/ambient/cave/cave2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/ambient/cave/cave3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/ambient/cave/cave3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/ambient/cave/cave4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/ambient/cave/cave4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/ambient/cave/cave5.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/ambient/cave/cave5.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/ambient/cave/cave6.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/ambient/cave/cave6.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/ambient/cave/cave7.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/ambient/cave/cave7.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/ambient/cave/cave8.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/ambient/cave/cave8.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/ambient/cave/cave9.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/ambient/cave/cave9.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/ghast/charge.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/ghast/charge.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/random/chestclosed.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/random/chestclosed.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/random/chestopen.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/random/chestopen.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/records/chirp.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/records/chirp.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/random/classic_hurt.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/random/classic_hurt.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/random/click.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/random/click.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/dig/cloth1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/step/cloth1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/dig/cloth1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/step/cloth1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/dig/cloth2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/step/cloth2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/dig/cloth2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/step/cloth2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/dig/cloth3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/step/cloth3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/dig/cloth3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/step/cloth3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/dig/cloth4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/step/cloth4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/dig/cloth4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/step/cloth4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/music/game/creative/creative1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/music/game/creative/creative2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/music/game/creative/creative3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/music/game/creative/creative4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/music/game/creative/creative5.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/music/game/creative/creative6.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/music/game/end/credits.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/bat/death.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/blaze/death.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/creeper/death.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/endermen/death.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/ghast/death.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/death.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/donkey/death.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/skeleton/death.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/zombie/death.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/irongolem/death.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/pig/death.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/skeleton/death.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/spider/death.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/villager/death.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/wither/death.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/wolf/death.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/zombie/death.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/bat/death.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/blaze/death.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/creeper/death.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/endermen/death.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/ghast/death.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/death.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/donkey/death.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/skeleton/death.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/zombie/death.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/irongolem/death.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/pig/death.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/skeleton/death.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/spider/death.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/villager/death.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/wither/death.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/wolf/death.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/zombie/death.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/random/door_close.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/random/door_close.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/random/door_open.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/random/door_open.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/random/drink.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/random/drink.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/random/eat1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/random/eat1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/random/eat2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/random/eat2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/random/eat3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/random/eat3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/el_GR.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/enderdragon/end.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/enderdragon/end.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/music/game/end/end.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/random/explode1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/random/explode1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/random/explode2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/random/explode2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/random/explode3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/random/explode3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/random/explode4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/random/explode4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/damage/fallbig.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/damage/fallbig.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/damage/fallsmall.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/damage/fallsmall.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/records/far.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/records/far.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/fire/fire.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/fire/fire.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/ghast/fireball4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/ghast/fireball4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/random/fizz.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/random/fizz.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/random/fuse.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/random/fuse.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/gallop1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/gallop1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/gallop2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/gallop2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/gallop3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/gallop3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/gallop4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/gallop4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/random/glass1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/random/glass1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/random/glass2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/random/glass2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/random/glass3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/random/glass3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/dig/grass1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/step/grass1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/dig/grass1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/step/grass1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/dig/grass2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/step/grass2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/dig/grass2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/step/grass2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/dig/grass3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/step/grass3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/dig/grass3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/step/grass3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/dig/grass4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/step/grass4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/dig/grass4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/step/grass4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/step/grass5.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/step/grass5.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/step/grass6.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/step/grass6.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/dig/gravel1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/step/gravel1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/dig/gravel1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/step/gravel1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/dig/gravel2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/step/gravel2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/dig/gravel2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/step/gravel2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/dig/gravel3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/step/gravel3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/dig/gravel3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/step/gravel3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/dig/gravel4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/step/gravel4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/dig/gravel4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/step/gravel4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/enderdragon/growl1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/wolf/growl1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/enderdragon/growl1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/wolf/growl1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/enderdragon/growl2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/wolf/growl2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/enderdragon/growl2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/wolf/growl2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/enderdragon/growl3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/wolf/growl3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/enderdragon/growl3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/wolf/growl3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/enderdragon/growl4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/enderdragon/growl4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/villager/haggle1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/villager/haggle1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/villager/haggle2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/villager/haggle2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/villager/haggle3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/villager/haggle3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/music/hal1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/music/game/hal1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/music/hal2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/music/game/hal2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/music/hal3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/music/game/hal3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/music/hal4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/music/game/hal4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/note/harp.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/note/harp.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/note/hat.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/note/hat.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/cat/hiss1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/cat/hiss1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/cat/hiss2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/cat/hiss2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/cat/hiss3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/cat/hiss3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/damage/hit1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/blaze/hit1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/enderdragon/hit1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/endermen/hit1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/hit1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/donkey/hit1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/skeleton/hit1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/zombie/hit1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/irongolem/hit1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/silverfish/hit1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/villager/hit1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/damage/hit1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/blaze/hit1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/enderdragon/hit1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/endermen/hit1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/hit1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/donkey/hit1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/skeleton/hit1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/zombie/hit1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/irongolem/hit1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/silverfish/hit1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/villager/hit1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/damage/hit2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/blaze/hit2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/enderdragon/hit2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/endermen/hit2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/hit2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/donkey/hit2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/skeleton/hit2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/zombie/hit2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/irongolem/hit2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/silverfish/hit2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/villager/hit2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/damage/hit2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/blaze/hit2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/enderdragon/hit2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/endermen/hit2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/hit2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/donkey/hit2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/skeleton/hit2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/zombie/hit2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/irongolem/hit2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/silverfish/hit2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/villager/hit2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/damage/hit3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/blaze/hit3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/enderdragon/hit3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/endermen/hit3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/hit3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/donkey/hit3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/skeleton/hit3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/zombie/hit3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/irongolem/hit3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/silverfish/hit3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/villager/hit3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/damage/hit3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/blaze/hit3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/enderdragon/hit3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/endermen/hit3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/hit3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/donkey/hit3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/skeleton/hit3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/zombie/hit3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/irongolem/hit3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/silverfish/hit3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/villager/hit3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/blaze/hit4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/enderdragon/hit4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/endermen/hit4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/hit4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/skeleton/hit4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/zombie/hit4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/irongolem/hit4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/villager/hit4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/blaze/hit4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/enderdragon/hit4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/endermen/hit4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/hit4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/skeleton/hit4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/zombie/hit4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/irongolem/hit4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/villager/hit4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/cat/hitt1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/cat/hitt1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/cat/hitt2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/cat/hitt2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/cat/hitt3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/cat/hitt3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/wolf/howl1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/wolf/howl1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/wolf/howl2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/wolf/howl2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/bat/hurt1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/chicken/hurt1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/cow/hurt1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/skeleton/hurt1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/wither/hurt1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/wolf/hurt1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/zombie/hurt1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/bat/hurt1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/chicken/hurt1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/cow/hurt1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/skeleton/hurt1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/wither/hurt1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/wolf/hurt1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/zombie/hurt1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/bat/hurt2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/chicken/hurt2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/cow/hurt2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/skeleton/hurt2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/wither/hurt2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/wolf/hurt2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/zombie/hurt2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/bat/hurt2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/chicken/hurt2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/cow/hurt2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/skeleton/hurt2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/wither/hurt2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/wolf/hurt2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/zombie/hurt2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/bat/hurt3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/cow/hurt3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/skeleton/hurt3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/wither/hurt3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/wolf/hurt3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/bat/hurt3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/cow/hurt3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/skeleton/hurt3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/wither/hurt3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/wolf/hurt3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/bat/hurt4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/skeleton/hurt4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/wither/hurt4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/bat/hurt4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/skeleton/hurt4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/wither/hurt4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/icons/icon_16x16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/icons/icon_32x32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/bat/idle1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/endermen/idle1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/idle1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/donkey/idle1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/skeleton/idle1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/zombie/idle1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/villager/idle1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/wither/idle1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/bat/idle1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/endermen/idle1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/idle1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/donkey/idle1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/skeleton/idle1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/zombie/idle1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/villager/idle1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/wither/idle1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/bat/idle2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/endermen/idle2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/idle2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/donkey/idle2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/skeleton/idle2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/zombie/idle2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/villager/idle2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/wither/idle2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/bat/idle2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/endermen/idle2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/idle2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/donkey/idle2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/skeleton/idle2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/zombie/idle2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/villager/idle2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/wither/idle2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/bat/idle3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/endermen/idle3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/idle3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/donkey/idle3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/skeleton/idle3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/zombie/idle3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/villager/idle3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/wither/idle3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/bat/idle3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/endermen/idle3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/idle3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/donkey/idle3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/skeleton/idle3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/zombie/idle3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/villager/idle3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/wither/idle3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/bat/idle4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/endermen/idle4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/wither/idle4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/bat/idle4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/endermen/idle4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/wither/idle4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/endermen/idle5.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/endermen/idle5.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/fire/ignite.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/fire/ignite.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/tile/piston/in.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/tile/piston/in.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/zombie/infect.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/zombie/infect.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/minecart/inside.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/minecart/inside.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/jump.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/jump.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/magmacube/jump1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/magmacube/jump1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/magmacube/jump2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/magmacube/jump2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/magmacube/jump3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/magmacube/jump3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/magmacube/jump4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/magmacube/jump4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/ka_GE.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/silverfish/kill.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/silverfish/kill.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/step/ladder1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/step/ladder1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/step/ladder2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/step/ladder2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/step/ladder3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/step/ladder3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/step/ladder4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/step/ladder4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/step/ladder5.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/step/ladder5.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/land.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/land.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/fireworks/largeBlast1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/fireworks/largeBlast1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/fireworks/largeBlast_far1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/fireworks/largeBlast_far1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/fireworks/launch1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/fireworks/launch1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/liquid/lava.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/liquid/lava.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/liquid/lavapop.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/liquid/lavapop.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/leather.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/leather.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/random/levelup.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/random/levelup.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/bat/loop.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/bat/loop.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/records/mall.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/records/mall.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/records/mellohi.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/records/mellohi.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/music/menu/menu1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/music/menu/menu2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/music/menu/menu3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/music/menu/menu4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/cat/meow1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/cat/meow1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/cat/meow2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/cat/meow2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/cat/meow3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/cat/meow3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/cat/meow4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/cat/meow4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/zombie/metal1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/zombie/metal1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/zombie/metal2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/zombie/metal2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/zombie/metal3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/zombie/metal3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/icons/minecraft.icns" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/ghast/moan1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/ghast/moan1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/ghast/moan2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/ghast/moan2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/ghast/moan3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/ghast/moan3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/ghast/moan4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/ghast/moan4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/ghast/moan5.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/ghast/moan5.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/ghast/moan6.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/ghast/moan6.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/ghast/moan7.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/ghast/moan7.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/music/game/nether/nether1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/music/game/nether/nether2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/music/game/nether/nether3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/music/game/nether/nether4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/villager/no1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/villager/no1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/villager/no2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/villager/no2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/villager/no3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/villager/no3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/music/nuance1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/music/game/nuance1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/music/nuance2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/music/game/nuance2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/random/orb.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/random/orb.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/tile/piston/out.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/tile/piston/out.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/wolf/panting.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/wolf/panting.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/music/piano1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/music/game/piano1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/music/piano2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/music/game/piano2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/music/piano3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/music/game/piano3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/note/pling.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/note/pling.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/chicken/plop.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/chicken/plop.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/random/pop.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/random/pop.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/endermen/portal.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/portal/portal.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/endermen/portal.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/portal/portal.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/endermen/portal2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/endermen/portal2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/cat/purr1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/cat/purr1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/cat/purr2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/cat/purr2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/cat/purr3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/cat/purr3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/cat/purreow1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/cat/purreow1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/cat/purreow2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/cat/purreow2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/ambient/weather/rain1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/ambient/weather/rain1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/ambient/weather/rain2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/ambient/weather/rain2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/ambient/weather/rain3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/ambient/weather/rain3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/ambient/weather/rain4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/ambient/weather/rain4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/zombie/remedy.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/zombie/remedy.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/dig/sand1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/step/sand1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/dig/sand1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/step/sand1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/dig/sand2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/step/sand2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/dig/sand2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/step/sand2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/dig/sand3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/step/sand3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/dig/sand3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/step/sand3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/dig/sand4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/step/sand4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/dig/sand4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/step/sand4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/step/sand5.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/step/sand5.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/chicken/say1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/cow/say1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/creeper/say1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/pig/say1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/sheep/say1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/silverfish/say1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/skeleton/say1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/spider/say1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/zombie/say1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/chicken/say1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/cow/say1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/creeper/say1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/pig/say1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/sheep/say1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/silverfish/say1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/skeleton/say1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/spider/say1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/zombie/say1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/chicken/say2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/cow/say2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/creeper/say2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/pig/say2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/sheep/say2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/silverfish/say2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/skeleton/say2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/spider/say2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/zombie/say2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/chicken/say2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/cow/say2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/creeper/say2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/pig/say2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/sheep/say2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/silverfish/say2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/skeleton/say2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/spider/say2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/zombie/say2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/chicken/say3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/cow/say3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/creeper/say3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/pig/say3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/sheep/say3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/silverfish/say3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/skeleton/say3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/spider/say3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/zombie/say3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/chicken/say3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/cow/say3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/creeper/say3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/pig/say3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/sheep/say3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/silverfish/say3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/skeleton/say3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/spider/say3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/zombie/say3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/cow/say4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/creeper/say4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/silverfish/say4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/spider/say4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/cow/say4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/creeper/say4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/silverfish/say4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/spider/say4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/endermen/scream1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/ghast/scream1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/endermen/scream1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/ghast/scream1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/endermen/scream2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/ghast/scream2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/endermen/scream2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/ghast/scream2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/endermen/scream3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/ghast/scream3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/endermen/scream3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/ghast/scream3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/endermen/scream4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/ghast/scream4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/endermen/scream4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/ghast/scream4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/ghast/scream5.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/ghast/scream5.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/wolf/shake.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/wolf/shake.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/sheep/shear.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/sheep/shear.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/wither/shoot.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/wither/shoot.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/magmacube/small1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/slime/small1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/magmacube/small1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/slime/small1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/magmacube/small2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/slime/small2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/magmacube/small2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/slime/small2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/magmacube/small3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/slime/small3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/magmacube/small3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/slime/small3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/magmacube/small4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/slime/small4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/magmacube/small4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/slime/small4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/magmacube/small5.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/slime/small5.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/magmacube/small5.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/slime/small5.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/note/snare.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/note/snare.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/dig/snow1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/step/snow1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/dig/snow1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/step/snow1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/dig/snow2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/step/snow2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/dig/snow2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/step/snow2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/dig/snow3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/step/snow3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/dig/snow3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/step/snow3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/dig/snow4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/step/snow4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/dig/snow4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/step/snow4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/soft1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/soft1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/soft2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/soft2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/soft3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/soft3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/soft4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/soft4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/soft5.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/soft5.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/soft6.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/soft6.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/wither/spawn.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/wither/spawn.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/liquid/splash.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/random/splash.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/liquid/splash.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/random/splash.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/liquid/splash2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/liquid/splash2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/records/stal.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/records/stal.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/endermen/stare.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/endermen/stare.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/chicken/step1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/cow/step1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/pig/step1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/sheep/step1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/silverfish/step1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/skeleton/step1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/spider/step1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/wolf/step1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/zombie/step1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/chicken/step1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/cow/step1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/pig/step1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/sheep/step1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/silverfish/step1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/skeleton/step1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/spider/step1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/wolf/step1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/zombie/step1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/chicken/step2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/cow/step2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/pig/step2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/sheep/step2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/silverfish/step2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/skeleton/step2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/spider/step2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/wolf/step2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/zombie/step2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/chicken/step2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/cow/step2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/pig/step2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/sheep/step2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/silverfish/step2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/skeleton/step2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/spider/step2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/wolf/step2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/zombie/step2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/cow/step3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/pig/step3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/sheep/step3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/silverfish/step3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/skeleton/step3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/spider/step3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/wolf/step3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/zombie/step3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/cow/step3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/pig/step3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/sheep/step3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/silverfish/step3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/skeleton/step3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/spider/step3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/wolf/step3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/zombie/step3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/cow/step4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/pig/step4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/sheep/step4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/silverfish/step4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/skeleton/step4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/spider/step4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/wolf/step4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/zombie/step4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/cow/step4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/pig/step4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/sheep/step4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/silverfish/step4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/skeleton/step4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/spider/step4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/wolf/step4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/zombie/step4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/pig/step5.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/sheep/step5.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/wolf/step5.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/zombie/step5.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/pig/step5.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/sheep/step5.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/wolf/step5.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/zombie/step5.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/dig/stone1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/step/stone1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/dig/stone1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/step/stone1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/dig/stone2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/step/stone2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/dig/stone2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/step/stone2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/dig/stone3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/step/stone3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/dig/stone3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/step/stone3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/dig/stone4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/step/stone4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/dig/stone4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/step/stone4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/step/stone5.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/step/stone5.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/step/stone6.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/step/stone6.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/records/strad.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/records/strad.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/random/successful_hit.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/random/successful_hit.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/liquid/swim1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/liquid/swim1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/liquid/swim2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/liquid/swim2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/liquid/swim3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/liquid/swim3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/liquid/swim4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/liquid/swim4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/bat/takeoff.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/bat/takeoff.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/th_TH.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/irongolem/throw.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/irongolem/throw.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/ambient/weather/thunder1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/ambient/weather/thunder1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/ambient/weather/thunder2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/ambient/weather/thunder2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/ambient/weather/thunder3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/ambient/weather/thunder3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/portal/travel.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/portal/travel.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/portal/trigger.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/portal/trigger.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/fireworks/twinkle1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/fireworks/twinkle1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/fireworks/twinkle_far1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/fireworks/twinkle_far1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/uk_UA.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/zombie/unfect.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/zombie/unfect.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/records/wait.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/records/wait.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/irongolem/walk1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/irongolem/walk1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/irongolem/walk2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/irongolem/walk2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/irongolem/walk3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/irongolem/walk3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/irongolem/walk4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/irongolem/walk4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/records/ward.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/records/ward.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/liquid/water.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/liquid/water.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/wolf/whine.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/wolf/whine.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/enderdragon/wings1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/enderdragon/wings1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/enderdragon/wings2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/enderdragon/wings2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/enderdragon/wings3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/enderdragon/wings3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/enderdragon/wings4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/enderdragon/wings4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/enderdragon/wings5.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/enderdragon/wings5.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/enderdragon/wings6.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/enderdragon/wings6.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/dig/wood1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/wood1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/zombie/wood1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/step/wood1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/dig/wood1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/wood1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/zombie/wood1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/step/wood1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/dig/wood2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/wood2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/zombie/wood2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/step/wood2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/dig/wood2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/wood2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/zombie/wood2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/step/wood2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/dig/wood3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/wood3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/zombie/wood3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/step/wood3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/dig/wood3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/wood3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/zombie/wood3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/step/wood3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/dig/wood4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/wood4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/zombie/wood4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/step/wood4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/dig/wood4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/wood4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/zombie/wood4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/step/wood4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/wood5.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/step/wood5.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/wood5.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/step/wood5.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/horse/wood6.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/step/wood6.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/horse/wood6.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/step/wood6.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/random/wood_click.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/random/wood_click.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/zombie/woodbreak.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/zombie/woodbreak.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/villager/yes1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/villager/yes1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/villager/yes2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/villager/yes2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/villager/yes3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/villager/yes3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/zombiepig/zpig1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/zombiepig/zpig1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/zombiepig/zpig2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/zombiepig/zpig2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/zombiepig/zpig3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/zombiepig/zpig3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/zombiepig/zpig4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/zombiepig/zpig4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/zombiepig/zpigangry1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/zombiepig/zpigangry1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/zombiepig/zpigangry2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/zombiepig/zpigangry2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/zombiepig/zpigangry3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/zombiepig/zpigangry3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/zombiepig/zpigangry4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/zombiepig/zpigangry4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/zombiepig/zpigdeath.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/zombiepig/zpigdeath.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/zombiepig/zpighurt1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/zombiepig/zpighurt1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sound/mob/zombiepig/zpighurt2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds/mob/zombiepig/zpighurt2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/.metadata/.plugins/org.eclipse.debug.core/.launches/Client.launch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/READ_ME_I_AM_VERY_IMPORTANT.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/.metadata/.plugins/org.eclipse.debug.core/.launches/Server.launch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/af_ZA.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/ar_SA.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/bg_BG.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/ca_ES.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/cs_CZ.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/cy_GB.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/da_DK.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/de_DE.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/en_AU.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/en_CA.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/en_GB.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/en_PT.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/eo_UY.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/es_AR.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/es_ES.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/es_MX.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/es_UY.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/es_VE.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/et_EE.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/eu_ES.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/fa_IR.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/fi_FI.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/fil_PH.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/fr_CA.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/fr_FR.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/ga_IE.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/gl_ES.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/he_IL.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/hi_IN.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/hr_HR.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/hu_HU.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/hy_AM.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/id_ID.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ironman.iws" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/is_IS.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/it_IT.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/ja_JP.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/ko_KR.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/kw_GB.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/la_LA.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/lb_LU.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/lt_LT.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/lv_LV.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/ms_MY.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/mt_MT.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/nl_NL.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/nn_NO.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/no_NO.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/oc_FR.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.epp.usagedata.gathering.prefs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.editors.prefs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/pack.mcmeta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/pl_PL.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/pt_BR.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/pt_PT.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/qya_AA.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/ro_RO.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/ru_RU.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/sk_SK.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/sl_SI.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/sounds.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/sr_SP.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/sv_SE.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/tlh_AA.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/tr_TR.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/vi_VN.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/zh_CN.lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/assets/lang/zh_TW.lang" />
+      <change type="DELETED" beforePath="C:\Users\Axel\Desktop\IntelliJ\IronMan\src\main\java\com\ironman\main\imcraftingmanager.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Axel\Desktop\IntelliJ\IronMan\src\main\java\com\ironman\main\mainclass.java" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\Axel\Desktop\IntelliJ\IronMan\src\main\java\com\ironman\block\copperore.java" afterPath="$PROJECT_DIR$/src/main/java/com/ironman/block/CopperOre.java" />
+      <change type="MOVED" beforePath="C:\Users\Axel\Desktop\IntelliJ\IronMan\src\main\java\com\ironman\block\imblock.java" afterPath="$PROJECT_DIR$/src/main/java/com/ironman/block/IMBlock.java" />
+      <change type="MOVED" beforePath="C:\Users\Axel\Desktop\IntelliJ\IronMan\src\main\java\com\ironman\block\palladiumore.java" afterPath="$PROJECT_DIR$/src/main/java/com/ironman/block/PalladiumOre.java" />
+      <change type="MOVED" beforePath="C:\Users\Axel\Desktop\IntelliJ\IronMan\src\main\java\com\ironman\block\titaniumore.java" afterPath="$PROJECT_DIR$/src/main/java/com/ironman/block/TitaniumOre.java" />
+      <change type="MOVED" beforePath="C:\Users\Axel\Desktop\IntelliJ\IronMan\src\main\java\com\ironman\block\vibraniumore.java" afterPath="$PROJECT_DIR$/src/main/java/com/ironman/block/VibraniumOre.java" />
+      <change type="MOVED" beforePath="C:\Users\Axel\Desktop\IntelliJ\IronMan\src\main\java\com\ironman\entity\imEntity.java" afterPath="$PROJECT_DIR$/src/main/java/com/ironman/entity/IMEntityRegistry.java" />
+      <change type="MOVED" beforePath="C:\Users\Axel\Desktop\IntelliJ\IronMan\src\main\java\com\ironman\lib\Strings.java" afterPath="$PROJECT_DIR$/src/main/java/com/ironman/Constants.java" />
+      <change type="MOVED" beforePath="C:\Users\Axel\Desktop\IntelliJ\IronMan\src\main\java\com\ironman\main\ClientProxy.java" afterPath="$PROJECT_DIR$/src/main/java/com/ironman/ClientProxy.java" />
+      <change type="MOVED" beforePath="C:\Users\Axel\Desktop\IntelliJ\IronMan\src\main\java\com\ironman\main\ServerProxy.java" afterPath="$PROJECT_DIR$/src/main/java/com/ironman/ServerProxy.java" />
+      <change type="MOVED" beforePath="C:\Users\Axel\Desktop\IntelliJ\IronMan\src\main\java\com\ironman\main\WorldGenOre.java" afterPath="$PROJECT_DIR$/src/main/java/com/ironman/world/WorldGenOre.java" />
+      <change type="MOVED" beforePath="C:\Users\Axel\Desktop\IntelliJ\IronMan\src\main\java\com\ironman\main\imWorld.java" afterPath="$PROJECT_DIR$/src/main/java/com/ironman/world/IMWorldRegistry.java" />
+      <change type="MOVED" beforePath="C:\Users\Axel\Desktop\IntelliJ\IronMan\src\main\java\com\ironman\main\item\Mark1Armor.java" afterPath="$PROJECT_DIR$/src/main/java/com/ironman/item/Mark1Armor.java" />
+      <change type="MOVED" beforePath="C:\Users\Axel\Desktop\IntelliJ\IronMan\src\main\java\com\ironman\main\item\Mark2Armor.java" afterPath="$PROJECT_DIR$/src/main/java/com/ironman/item/Mark2Armor.java" />
+      <change type="MOVED" beforePath="C:\Users\Axel\Desktop\IntelliJ\IronMan\src\main\java\com\ironman\main\item\Mark3Armor.java" afterPath="$PROJECT_DIR$/src/main/java/com/ironman/item/Mark3Armor.java" />
+      <change type="MOVED" beforePath="C:\Users\Axel\Desktop\IntelliJ\IronMan\src\main\java\com\ironman\main\item\TonyStark.java" afterPath="$PROJECT_DIR$/src/main/java/com/ironman/item/TonyStark.java" />
+      <change type="MOVED" beforePath="C:\Users\Axel\Desktop\IntelliJ\IronMan\src\main\java\com\ironman\main\item\imitem.java" afterPath="$PROJECT_DIR$/src/main/java/com/ironman/item/IMItemRegistryOld.java" />
+      <change type="MOVED" beforePath="C:\Users\Axel\Desktop\IntelliJ\IronMan\src\main\java\com\ironman\main\item\repulsor.java" afterPath="$PROJECT_DIR$/src/main/java/com/ironman/item/repulsor.java" />
+      <change type="MODIFICATION" beforePath="C:\Users\Axel\Desktop\IntelliJ\IronMan\src\main\java\com\ironman\entity\EntityRepulsor.java" afterPath="$PROJECT_DIR$/src/main/java/com/ironman/entity/EntityRepulsor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ironman.iws" afterPath="$PROJECT_DIR$/ironman.iws" />
     </list>
     <ignored path="ironman.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="98095ef1-5b03-4ad1-92c6-77f032b084f6" time="1402543718823" ignored="false" />
-    <file path="$PROJECT_DIR$/ironman.iws" changelist="98095ef1-5b03-4ad1-92c6-77f032b084f6" time="1402543723856" ignored="false" />
+    <file path="/Dummy.txt" changelist="98095ef1-5b03-4ad1-92c6-77f032b084f6" time="1402582458904" ignored="false" />
+    <file path="/imEntity.java" changelist="98095ef1-5b03-4ad1-92c6-77f032b084f6" time="1402583370894" ignored="false" />
+    <file path="/fragment.java" changelist="98095ef1-5b03-4ad1-92c6-77f032b084f6" time="1402583223734" ignored="false" />
+    <file path="/IMEntityRegistry.java" changelist="98095ef1-5b03-4ad1-92c6-77f032b084f6" time="1402583319364" ignored="false" />
+    <file path="/IronMan.java" changelist="98095ef1-5b03-4ad1-92c6-77f032b084f6" time="1402583817624" ignored="false" />
+    <file path="/imcraftingmanager.java" changelist="98095ef1-5b03-4ad1-92c6-77f032b084f6" time="1402583502588" ignored="false" />
+    <file path="/IMItemRegistry.java" changelist="98095ef1-5b03-4ad1-92c6-77f032b084f6" time="1402597280050" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1151,6 +44,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel url="file://$PROJECT_DIR$" />
+    <splitter proportion="0.5" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -1158,6 +56,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -1194,7 +93,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -1204,56 +102,102 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="mainclass.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ironman/main/mainclass.java">
+      <file leaf-file-name="IronMan.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ironman/IronMan.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="13" selection-start="784" selection-end="784" vertical-scroll-proportion="0.0">
+            <state line="39" column="44" selection-start="1151" selection-end="1151" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClientProxy.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ironman/ClientProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="13" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Constants.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ironman/Constants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="13" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IMCraftingRegistry.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ironman/item/IMCraftingRegistry.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="79" column="192" selection-start="5937" selection-end="5937" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IMWorldRegistry.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ironman/world/IMWorldRegistry.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="30" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EntityRepulsor.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ironman/entity/EntityRepulsor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="25" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IMItemRegistryOld.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ironman/item/IMItemRegistryOld.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="34" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IMItemRegistry.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ironman/item/IMItemRegistry.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="22" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Mark1Armor.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ironman/main/item/Mark1Armor.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ironman/item/Mark1Armor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="13" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="23" column="25" selection-start="827" selection-end="827" vertical-scroll-proportion="-4.44">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Mark2Armor.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ironman/main/item/Mark2Armor.java">
+      <file leaf-file-name="Mark2Armor.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ironman/item/Mark2Armor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="13" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Mark3Armor.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ironman/main/item/Mark3Armor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="13" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="repulsor.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ironman/main/item/repulsor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="22" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="org.eclipse.ui.ide.prefs" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/eclipse/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="47" column="28" selection-start="2010" selection-end="2010" vertical-scroll-proportion="0.53862214">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1267,6 +211,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="GitLogSettings">
     <option name="myDateState">
@@ -1277,6 +226,20 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/README.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ironman/entity/imEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ironman/entity/IMEntityRegistry.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ironman/entity/EntityRepulsor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ironman/imcraftingmanager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ironman/IMCraftingRegistry.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ironman/item/imitem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ironman/imWorld.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ironman/IMWorldRegistry.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ironman/world/IMWorldRegistry.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ironman/IronMan.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ironman/item/IMItemRegistryOld.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ironman/item/IMItemRegistry.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ironman/item/Mark1Armor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ironman/item/Mark2Armor.java" />
       </list>
     </option>
   </component>
@@ -1349,7 +312,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="eclipse" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1367,11 +338,241 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="eclipse" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value=".metadata" />
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ironman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="textures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="items" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ironman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IronMan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ironman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="textures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ironman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IronMan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ironman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ironman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IronMan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ironman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ironman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IronMan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ironman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="world" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ironman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IronMan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ironman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="item" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ironman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IronMan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ironman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ironman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IronMan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ironman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="block" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1385,14 +586,14 @@
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="recentsLimit" value="5" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -1523,7 +724,11 @@
       <created>1402543356806</created>
       <updated>1402543356806</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added files.">
+      <created>1402543772805</created>
+      <updated>1402543772805</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -1548,22 +753,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32879046" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32879046" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Metrics" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6712095" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6712095" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1640,115 +845,106 @@
     <option name="showOnlyWarnings" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ironman/main/mainclass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="13" selection-start="784" selection-end="784" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ironman/main/item/Mark1Armor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ironman/main/item/Mark2Armor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ironman/main/item/Mark3Armor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="13" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ironman/main/item/repulsor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="22" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ironman/main/mainclass.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ironman/entity/IMEntityRegistry.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ironman/main/item/Mark1Armor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ironman/main/item/Mark2Armor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ironman/main/item/Mark3Armor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="13" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ironman/main/item/repulsor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ironman/main/mainclass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="13" selection-start="784" selection-end="784" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ironman/main/item/Mark1Armor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ironman/main/item/Mark2Armor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ironman/main/item/Mark3Armor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="13" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ironman/main/item/repulsor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="22" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eclipse/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ironman/entity/EntityRepulsor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="25" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ironman/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ironman/item/IMCraftingRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="192" selection-start="5937" selection-end="5937" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ironman/ClientProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ironman/world/IMWorldRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="30" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ironman/IronMan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="44" selection-start="1151" selection-end="1151" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ironman/entity/IMEntityRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="117" selection-start="1520" selection-end="1520" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ironman/item/IMItemRegistryOld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="34" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ironman/item/IMItemRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="22" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ironman/item/Mark1Armor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="25" selection-start="827" selection-end="827" vertical-scroll-proportion="-4.44">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ironman/item/Mark2Armor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="28" selection-start="2010" selection-end="2010" vertical-scroll-proportion="0.53862214">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

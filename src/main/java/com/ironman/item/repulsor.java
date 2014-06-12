@@ -1,8 +1,7 @@
-package com.ironman.main.item;
+package com.ironman.item;
 
 
-import com.ironman.Entity.EntityRepulsor;
-import com.ironman.Entity.imEntity;
+import com.ironman.entity.EntityRepulsor;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;

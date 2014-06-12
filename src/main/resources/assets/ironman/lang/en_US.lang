@@ -1,0 +1,50 @@
+item.titaniumingot.name=Titanium Ingot
+item.copperingot.name=Copper Ingot
+item.palladiumfragment.name=Palladium Fragment
+item.copperwire.name=Copper Wire
+item.voicechip.name=Voice Chip
+item.microchip.name=Micro Chip
+item.JARVISchip.name=JARVIS Chip
+item.screen.name=Screen
+item.booster.name=Booster
+item.palladiumcore.name=Palladium Core
+item.vibraniumcore.name=Vibranium Core
+item.palladiumarc.name=Palladium Arc
+item.palladiumarc.name=Palladium Arc
+item.advancedbooster.name=Advanced Booster
+item.ironplate.name=Iron Plate
+item.titaniumalloy.name=Titanium Alloy
+item.rocket.name=Rocket
+item.titaniumplate.name=Titanium Plate
+item.goldtitaniumalloy.name=Gold Titanium Alloy
+item.vibraniumarc.name=Vibranium Arc Reactor
+item.vibraniummolecule.name=Vibranium Molecule
+item.repulsor.name=Repulsor
+
+item.Mark2Helmet.name=Mark2 Helmet
+item.Mark2Chestplate.name=Mark2 Chestplate
+item.Mark2Leggings.name=Mark2 Leggings
+item.Mark2Boots.name=Mark2 Boots
+
+item.Mark3Helmet.name=Mark3 Helmet
+item.Mark3Chestplate.name=Mark3 Chestplate
+item.Mark3Leggings.name=Mark3 Leggings
+item.Mark3Boots.name=Mark3 Boots
+
+item.Mark1Helmet.name=Mark1 Helmet
+item.Mark1Chestplate.name=Mark1 Chestplate
+item.Mark1Leggings.name=Mark1 Leggings
+item.Mark1Boots.name=Mark1 Boots
+
+tile.titaniumore.name=Titamium Ore
+tile.copperore.name=Copper Ore
+tile.vibraniumore.name=Vibranium Ore
+tile.palladiumore.name=Palladiumore Ore
+tile.compressor.name=Compressor
+tile.compressoractive.name=Compressor
+entity.EntityRepulsor.name=Repulsor
+
+
+
+
+
